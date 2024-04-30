@@ -36,11 +36,12 @@ export default function Home() {
             </ul>
           </nav>
           <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r" />
-            <Particles
-              className="absolute inset-0 -z-20 animate-fade-in"
-              quantity={100}
-            />
+            <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r">
+              <Particles
+                className="absolute inset-0 -z-20 animate-fade-in"
+                quantity={100}
+              />
+            </div>
 
             <div className="relative z-[-1] flex place-items-center ">
               <Image
@@ -99,7 +100,7 @@ export default function Home() {
                   </span>
                 </h2>
                 <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                  Contactame (●'◡'●).
+                  Contactame.
                 </p>
               </a>
 
