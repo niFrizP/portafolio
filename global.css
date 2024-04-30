@@ -1,0 +1,10 @@
+/* Removed unsupported '@layer' rule */
+/* Removed unknown '@tailwind' rules */
+  .text-edge-outline {
+    -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+  }
+  .body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'IBM_Plex_Mono', Mono-Light;
+  }
